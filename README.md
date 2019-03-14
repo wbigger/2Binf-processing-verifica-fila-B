@@ -1,5 +1,5 @@
-# Simulazione verifica Informatica: Processing
-Simulazione della verifica di laboratorio con Processing su classi, metodi e oggetti 3D.
+# Verifica Informatica: Processing
+Verifica di laboratorio con Processing su classi, metodi e oggetti 3D.
 Classe: 2Binf, a.s. 2018/2019
 
 Nella cartella `design` trovate le istruzioni per l'applicazione che dovrete implementare.
@@ -23,10 +23,16 @@ Quando avete finito e **comunque 5 minuti prima** dello scadere del tempo (vi ve
 
 
 # Calcolo del punteggio
+Punti generali:
+- [ ] corretta indentazione del codice
+- [ ] codice che compila
+- [ ] chiarezza del codice (commenti, identificativi, etc.)
+
+Punti progetto:
 - [ ] creare una classe `Personaggio`
 - [ ] dichiarare una variabile di tipo `Personaggio`
 - [ ] assegnare alla variabile creata il modello `harry.obj`
-- [ ] colorare creato in accordo con il design
+- [ ] colorare il personaggio creato in accordo con il design
 - [ ] creare un metodo nella classe Personaggio per disegnarlo
 - [ ] disegnare il personaggio
 - [ ] far muovere il personaggio in accordo con il design
@@ -35,16 +41,11 @@ Quando avete finito e **comunque 5 minuti prima** dello scadere del tempo (vi ve
 - [ ] far fermare il personaggio quando arriva sopra la Nimbus 2000 __(fino a qui per la sufficienza)__
 
 - [ ] aggiungere due variabili di classe `x` e `y`, di tipo `float`, alla classe `Personaggio`
-- [ ] aggiungere un metodo `cade()` alla classe `Personaggio`, senza argomenti, che fa cadere il personaggio verso la Nimbus 2000
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-- [ ]
-
-- [ ] corretta indentazione del codice
-- [ ] codice che compila
-- [ ] chiarezza del codice (commenti, identificativi, etc.)
+- [ ] aggiungere un metodo `cade()` alla classe `Personaggio` che fa cadere il personaggio verso la Nimbus 2000
+- [ ] aggiungere un metodo `avvicina()` alle classi `Personaggio` e `Veicolo`, che usando il metodo `scale()` di PShape, ingrandiscono gli oggetti simulando un avvicinamento verso lo schermo; usare valore di scala di circa `1.01`.
+- [ ] quando si preme il tasto `a` della tastiera, richiamare il metodo `avvicina()` sia per la Nimbus che per Harry
+- [ ] creare un metodo `fluttua()` per la classe `Veicolo` che prende come parametro una variabile di tipo `Personaggio` e fa flutturare di uno stesso valore casuale la posizione sia del veicolo che del personaggio passato come parametro
+- [ ] quando Harry è sulla Nimbus, entrambi devono fluttuare
 
 Totale punti: 20
 
