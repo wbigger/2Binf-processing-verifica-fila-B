@@ -1,8 +1,7 @@
 # Design
 
 ## Brief 
-E' finita l'estate e Ron deve tornare al castello di Hogwarts per ricominciare l'anno scolastico. Ma durante il viaggio i suoi fratelli gli tirano un brutto scherzo!
-
+Harry sta cadendo dalla torre dell'orologio, ma fortunatamente la sua scopa è proprio sotto di lui. Una volta salito sulla scopa, Harry corre in velocità verso lo schermo fino a sparire dalla vista.
 
 ## Wireframes
 ![wireframe](./wireframe.jpg)
